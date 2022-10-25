@@ -2,6 +2,8 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "start": "nohup ./loop.sh &",
+    "log": "tail -f ./logs/sitespeed.io.log",
     "test": "eslint . --ext .json --ext .js",
     "lint:fix": "eslint . --fix --ext .json --ext .js"
   },
