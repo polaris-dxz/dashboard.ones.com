@@ -4,6 +4,7 @@
   "scripts": {
     "start": "nohup ./loop.sh &",
     "log": "tail -f ./logs/sitespeed.io.log",
+    "clean": "rm sitespeed.run",
     "test": "eslint . --ext .json --ext .js",
     "lint:fix": "eslint . --fix --ext .json --ext .js"
   },
